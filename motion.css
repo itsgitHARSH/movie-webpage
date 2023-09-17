@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+body{
+     background: linear-gradient(rgba(15, 11, 37, 0.9),rgba(12, 8, 33, 0.9)), url(posters/2point0_1_IT_1536382553110.jpg);
+     /* width: 100%;
+    height: 100vh; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.movie-detail{
+    margin: 3% 0;
+}
+.left-box{
+    color: #fff;
+    margin: 15px 0;
+    padding: 20px;
+}
+.casting img{
+    height: 65px;
+    width: 70px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.left-box button{
+    margin-top: 8%;
+    margin-right: 2%;
+}
+.movie-img{
+    height: 430px;
+    box-shadow: -4px 4px 5px 0 #000;
+    margin-top: 7%;
+}
+.series h3{
+    color: #fff;
+}
+.series img{
+    width: 100%;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: 1s;
+}
+.series img:hover{
+    transform: translateY(-10px);
+}
